@@ -1,0 +1,418 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
+/* font-family: 'Manrope', sans-serif;
+font-family: 'Playfair Display', serif; */
+*
+{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+::before,::after
+{
+    box-sizing: border-box;
+}
+body
+{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: 'Manrope', sans-serif;
+}
+a
+{
+    text-decoration: none;
+}
+ul,li
+{
+    list-style-type: none;
+    padding: 0;
+}
+h1,h2,h3,h4,h5,h6
+{
+    font-family: 'Playfair Display', serif;
+    line-height: 1.28;
+}
+p
+{
+    margin: 0;
+}
+img
+{
+    width: 100%;
+}
+section
+{
+    padding: 36px 0;
+}
+.container
+{
+    max-width: 1190px;
+    width: 100%;
+    padding: 0 30px;
+}
+/* Navigation Section */
+.logo-brand img
+{
+    height: 53px;
+}
+/* Hero Section */
+.hero-content h1
+{
+    font-size: 3.75rem;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.9);
+}
+.hero-content p
+{
+    font-size: 20px;
+    line-height: 32px;
+    color: #999;
+}
+.hero-btn a
+{
+    background: transparent;
+    border-radius: 6px;
+    color: #FF7213;
+    min-width: 170px;
+    font-size: 17px;
+    font-weight: 700;
+    border: 2px solid #FF7213;
+    padding: 10px 20px;
+    margin-right: 12px;
+    transition: all 0.4s ease;
+}
+.hero-btn a:hover
+{
+    color: #fff;
+    background: #FF7213;
+    border: 2px solid #FF7213;
+
+}
+/* carousel Sectin */
+.pix-slider
+{
+    position: relative;
+}
+.owl-dots
+{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 30px;
+}
+.owl-dot
+{
+    background-color: #999 !important;
+    width: 8px !important;
+    height: 8px !important;
+    margin-right: 10px !important;
+    border-radius: 50px !important;
+}
+.owl-dots .active
+{
+    background-color: #FF7213 !important;
+    width: 20px !important;
+    height: 8px !important;
+}
+/* Testimonials Section */
+.testimonials
+{
+    background-image: url('../images/testimonialsbg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    padding: 60px 0;
+}
+.testimonials-title h1
+{
+    font-size: 40px;
+    color: #ffffff;
+    line-height: 50px;
+    text-align: center;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+.test-img img
+{
+    width: 50px;
+    height: 50px;
+    border: 2px solid #FF7213;
+    border-radius: 50px;
+    margin-right: 15px;
+}
+.testimonials-card
+{
+    background: #FFFFFF;
+    padding: 30px;
+    border-radius: 10px;
+    transition: all 0.4s ease;
+}
+.testimonials-card:hover
+{
+    transform: translateY(-5px);
+}
+.testimonials-card p
+{
+    font-size: 14px;
+    text-align: left;
+    font-weight: 500;
+    letter-spacing: 0.01em;
+    line-height: 20px;
+    color: #3C3C3C;
+    line-height: 1.5;
+}
+.test-content h5
+{
+    color: #3c3c3c;
+    letter-spacing: -0.01em;
+    font-weight: 700;
+}
+.test-content p
+{
+    color: #909090;
+    font-size: 14px !important;
+    line-height: 0.5;
+}
+.test-content img
+{
+    margin-top: 15px;
+}
+/* Feature Section */
+.feature-title h1
+{
+    text-align: center;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+.sub-title img
+{
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+}
+.feature-main
+{
+    padding: 60px 0;
+}
+.sub-title p
+{
+    color: #ff7213 !important;
+    font-size: 1.1rem;
+    line-height: 1.7;
+    font-weight: 700;
+    margin-top: 0 !important;
+}
+.feature-content h1
+{
+    color: #000;
+    display: inline-block;
+    font-weight: 700;
+    line-height: 1.28;
+    font-size: 2rem;
+    font-family: 'Manrope', sans-serif;
+    margin-top: 40px;
+}
+.feature-content p
+{
+    display: inline-block;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 20px;
+}
+.feature-content span
+{
+    display: inline-block;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 700;
+    font-family: 'Manrope', sans-serif;
+    color: #000;
+    margin-top: 30px;
+}
+.promotion-box
+{
+    background-color: #f4f4f4;
+    padding: 20px 40px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.promotion-box h6
+{
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 21px;
+    padding-top: 5px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.feature-image img
+{
+    max-width: 440px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+}
+.promotion-pic .client2
+{
+    padding-right: 20px;
+}
+.app-store
+{
+    margin-right: 30px;
+}
+/* Integrations Section */
+.integration-title h1
+{
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    font-weight: 700;
+}
+/* Join Now Section */
+.joinnow-main
+{
+    background-image: url('../images/joinnow.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    padding: 80px 0;
+}
+.joinnow-content h1
+{
+    font-size: 40px;
+    color: #ffffff;
+    line-height: 50px;
+    text-align: center;
+    font-weight: 700;
+}
+.joinnow-content p
+{
+    font-weight: bolder;
+    font-size: 17px;
+    color: #FFFFFF;
+    margin-top: 30px;
+}
+.joinnow-content a
+{
+    padding: 0.75rem 2rem;
+    font-size: 1.125rem;
+    line-height: 1.5;
+    border-radius: 0.3rem;
+    color: #333;
+    background-color: #fff;
+    border-color: #fff;
+    box-shadow: none;
+    font-weight: 800;
+    margin-top: 30px;
+    transition: all 0.15s ease-in-out;
+}
+.joinnow-content a:hover
+{
+    color: #333;
+    background-color: #fff2f2;
+    border-color: #fff;
+}
+/* Business Messenger */
+.messenger-title h1
+{
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    color: #000;
+    letter-spacing: -0.01em;
+    font-weight: 700;
+}
+.messenger-title p
+{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+.messenger-card
+{
+    border-radius: 10px;
+    padding: 26px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    transition: all 0.4s ease;
+}
+.messenger-card:hover
+{
+    transform: translateY(-5px);
+}
+.messenger-card img
+{
+    width: 80px;
+    height: 80px;
+}
+.messenger-card p
+{
+    color: rgba(0, 0, 0, 0.5);
+    line-height: 1.5;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+.messenger-profile h5
+{
+    color: #3c3c3c;
+    letter-spacing: -0.01em;
+    font-weight: 700;
+}
+.messenger-profile span
+{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 14px;
+    margin-bottom: 0.75rem;
+}
+.messenger-profile img
+{
+    width: 120px;
+    height: 20px;
+}
+/* Secound Join Now Section */
+.joinnow-main2
+{
+    background-image: url('../images/Rectangle-19.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    padding: 80px 0;
+}
+/* Footer Section */
+.footer-main
+{
+    background-color: #3C3C3C;
+}
+.footer-area
+{
+    padding: 30px 0;
+}
+.footer-area img
+{
+    height: 53px;
+}
+.footer-area p
+{
+    color: #FFFFFF;
+    margin-top: 20px !important;
+    max-width: 400px;
+    width: 100%;
+    display: flex;
+    margin: auto;
+}
+.copyright
+{
+    background-color: #222;
+    color: #7a7a7a;
+    font-size: 12px;
+    padding: 5px 0;
+}
